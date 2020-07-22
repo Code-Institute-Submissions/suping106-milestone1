@@ -17,6 +17,21 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Long Hill</title>
   </head>
@@ -24,7 +39,7 @@
   <body>
     <!-- Header using bootstrap Navbar -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="./index.html">Long Hill</a>
         <button
           class="navbar-toggler"
@@ -38,7 +53,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link active" href="./index.html"
               >Home <span class="sr-only">(current)</span></a
             >
@@ -50,75 +65,237 @@
     </header>
 
     <!-- Main body -->
+
+    <!-- section for photos, carousel idea & code from mdbootstrap.com -->
     <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 col-md-12">
-            <h1>History</h1>
-            <p>
-              In 1916, this 114-acre hillside property attracted Atlantic
-              Monthly editor and publisher Ellery Sedgwick and his wife for its
-              lovely views of the rural North Shore. But Mabel Cabot Sedgwick,
-              an accomplished gardener and horticulturist, had more ambitious –
-              and aesthetic – ideas. As the couple formulated plans for the
-              elegant Federal-style home that would become their summer retreat,
-              Mabel Sedgwick also set about designing gardens and landscape
-              amenities that are renowned a century later. After her death in
-              1937, her vision was sustained and expanded by the second Mrs.
-              Sedgwick, the former Marjorie Russell, a rare plants specialist,
-              who added new and rare species of trees and shrubs to the estate,
-              some introduced by the Arnold Arboretum in Jamaica Plain. The
-              gardens are laid out in a series of separate garden “rooms”
-              surrounding the handsome, Federal-style, brick house. Each “room”
-              is distinct in its own way, accented by ornaments and statuary.
-              Today, the gardens retain the “Garden for Living”–style with
-              integrated outdoor rooms, mature plantings that blend into the
-              surrounding woodlands, and a spirit of innovation in horticulture.
-              To design their indoor living space, the Sedgwicks hired the
-              Boston firm of Richardson, Barrott and Richardson. The family
-              wanted to bring the outdoors in, and they decorated the rooms with
-              lovely murals of garden scenes and flowers. Its interiors also
-              boast elegant woodwork and mantelpieces from the Isaac Ball House
-              in Charleston, South Carolina. The gardens are flanked on all
-              sides by more than 100 acres of woodland as well as an apple
-              orchard, meadow, children’s garden, and agricultural fields,
-              including a 2-acre organic vegetable farm run by The Food Project
-              as a Community Supported Agriculture (CSA) project.
-            </p>
-          </div>
-          <div class="col-lg-8 col-md-12">
-            <div class="row">
-              <div class="col-sm-6">
-                <h2>Spring</h2>
+      <!--Carousel Wrapper-->
+      <div
+        id="multi-item"
+        class="carousel slide carousel-multi-item carousel-multi-item-2 center_container"
+        data-ride="carousel"
+      >
+        <!--Controls-->
+        <div class="controls-top">
+          <a class="black-text" href="#multi-item" data-slide="prev"
+            ><i class="fas fa-angle-left fa-3x pr-3"></i
+          ></a>
+          <a class="black-text" href="#multi-item" data-slide="next"
+            ><i class="fas fa-angle-right fa-3x pl-3"></i
+          ></a>
+        </div>
+        <!--/.Controls-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="col-md-3 mb-3">
+              <div class="card">
                 <img
                   class="img-fluid"
-                  src="./assets/images/IMG_E9813.JPG"
+                  src="./assets/images/ChairTable.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/GardenLs.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/LilyPondLs.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/TulipsLs.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+          <!--/.First slide-->
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/House3Ls.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/Frog.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/veggiFieldLs.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/KidsGardenLs.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+          <!--/.Second slide-->
+
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/Kid2ls.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/frontyard.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/flowerfieldls.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img
+                  class="img-fluid"
+                  src="./assets/images/autumnveggiels.JPG"
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+          </div>
+          <!--/.Third slide-->
+        </div>
+        <!--/.Slides-->
+      </div>
+      <!--/.Carousel Wrapper-->
+    </section>
+    
+    <hr style="width: 50%;" />
+    <!-- section for Histroy and season photos -->
+    <section>
+      <div class="container-fluid">
+        <h1 class="title">History</h1>
+        <div class="row">
+          <p class="intro center_container">
+            "In 1916, this 114-acre hillside property attracted Atlantic Monthly
+            editor and publisher Ellery Sedgwick and his wife for its lovely
+            views of the rural North Shore. But Mabel Cabot Sedgwick, an
+            accomplished gardener and horticulturist, had more ambitious – and
+            aesthetic – ideas. As the couple formulated plans for the elegant
+            Federal-style home that would become their summer retreat, Mabel
+            Sedgwick also set about designing gardens and landscape amenities
+            that are renowned a century later. After her death in 1937, her
+            vision was sustained and expanded by the second Mrs. Sedgwick, the
+            former Marjorie Russell, a rare plants specialist, who added new and
+            rare species of trees and shrubs to the estate, some introduced by
+            the Arnold Arboretum in Jamaica Plain. The gardens are laid out in a
+            series of separate garden “rooms” surrounding the handsome,
+            Federal-style, brick house. Each “room” is distinct in its own way,
+            accented by ornaments and statuary. Today, the gardens retain the
+            “Garden for Living”–style with integrated outdoor rooms, mature
+            plantings that blend into the surrounding woodlands, and a spirit of
+            innovation in horticulture. To design their indoor living space, the
+            Sedgwicks hired the Boston firm of Richardson, Barrott and
+            Richardson. The family wanted to bring the outdoors in, and they
+            decorated the rooms with lovely murals of garden scenes and flowers.
+            Its interiors also boast elegant woodwork and mantelpieces from the
+            Isaac Ball House in Charleston, South Carolina. The gardens are
+            flanked on all sides by more than 100 acres of woodland as well as
+            an apple orchard, meadow, children’s garden, and agricultural
+            fields, including a 2-acre organic vegetable farm run by The Food
+            Project as a Community Supported Agriculture (CSA) project." - From
+            Trustees' website
+          </p>
+        </div>
+        <hr style="width: 50%;" />
+        <div class="row center_container">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-sm-6">
+                <h2 class="sub_title">Spring</h2>
+                <img
+                  class="img-fluid"
+                  src="./assets/images/PavillionSpring.JPG"
                   alt="Longhill"
                 />
               </div>
               <div class="col-sm-6">
-                <h2>Summer</h2>
+                <h2 class="sub_title">Summer</h2>
                 <img
                   class="img-fluid"
-                  src="./assets/images/IMG_3375.jpg"
+                  src="./assets/images/SummerArch.jpg"
                   alt="Longhill"
                 />
               </div>
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <h2>Autumn</h2>
+                <h2 class="sub_title">Autumn</h2>
                 <img
                   class="img-fluid"
-                  src="./assets/images/P1060553.jpg"
+                  src="./assets/images/autumnpavillion.JPG"
                   alt="Longhill"
                 />
               </div>
               <div class="col-sm-6">
-                <h2>Winter</h2>
+                <h2 class="sub_title">Winter</h2>
                 <img
                   class="img-fluid"
-                  src="./assets/images/IMG_9510.JPG"
+                  src="./assets/images/TrailBoardWalk.JPG"
                   alt="Longhill"
                 />
               </div>
@@ -137,27 +314,47 @@
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
+            <a
+              href="http://www.thetrustees.org/places-to-visit/northeast/long-hill.html"
+              target="_blank"
+              class="btn-floating btn-fb mx-1"
+            >
               <i class="fab fa-facebook-f"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
+            <a
+              href="http://www.thetrustees.org/places-to-visit/northeast/long-hill.html"
+              target="_blank"
+              class="btn-floating btn-tw mx-1"
+            >
               <i class="fab fa-twitter"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
+            <a
+              href="http://www.thetrustees.org/places-to-visit/northeast/long-hill.html"
+              target="_blank"
+              class="btn-floating btn-gplus mx-1"
+            >
               <i class="fab fa-google-plus-g"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
+            <a
+              href="http://www.thetrustees.org/places-to-visit/northeast/long-hill.html"
+              target="_blank"
+              class="btn-floating btn-li mx-1"
+            >
               <i class="fab fa-linkedin-in"> </i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="btn-floating btn-youtube mx-1">
+            <a
+              href="http://www.thetrustees.org/places-to-visit/northeast/long-hill.html"
+              target="_blank"
+              class="btn-floating btn-youtube mx-1"
+            >
               <i class="fab fa-youtube"> </i>
             </a>
           </li>
@@ -165,6 +362,5 @@
         <!-- Social buttons -->
       </div>
     </footer>
-    
   </body>
 </html>
