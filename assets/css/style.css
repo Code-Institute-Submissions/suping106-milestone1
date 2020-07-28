@@ -7,16 +7,17 @@
     max-width: 100%;
   }
 }
-
+/*------------ body padding --------------*/
 body {
   padding-top: 55px;
 }
 
+/*------------ Carousel photo border ------------*/
 .carousel-multi-item-2 .card img {
   border-radius: 2px;
 }
 
-
+/*------------Title text --------------*/
 .title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -24,19 +25,11 @@ body {
   color: brown;
 }
 
-.title-discover {
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-  text-align: center;
-  color: brown;
-}
-
+/*------------ Container formatting ---------*/
 .title-container {
   background-color: goldenrod;
   padding-top: 30px;
   padding-bottom: 30px;
-
   align-items: center;
   justify-content: center;
   position: relative;
@@ -44,11 +37,11 @@ body {
 
 .center_container {
   width: 90%;
-
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-}
+  text-align: center;
+  }
 
 .sub_title {
   margin-top: 15px;
@@ -57,11 +50,10 @@ body {
   color: brown;
 }
 
-.text_brown {
-  color: brown;
-}
 
-.intro {
+
+/*------------ Paragraph text------------*/
+.text_body {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
   margin-bottom: 0px;
@@ -71,8 +63,19 @@ body {
   text-align: justify;
 }
 
-img_left {
-  float: left;
-  border: 1px dotted black;
-  margin: 5px 30px 5px 30px;
+.text_brown {
+  color: brown;
 }
+
+/*---------- images alignment---------------*/
+.img_left {
+  float: left;
+  margin: 5px 30px 0px 10px;
+  width: 25%
+  }
+
+.img_right {
+  float: right;
+  margin: 5px 10px 0px 30px;
+  width: 30%
+  }  

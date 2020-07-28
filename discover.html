@@ -17,21 +17,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
 
     <title>Long Hill</title>
   </head>
@@ -75,10 +60,9 @@
     <section>
       <div class="container-fluid center_container mt-5">
         <div class="row">
-          <p class="intro">
+          <p class="text_body">
             <img
-              align="left"
-              style="margin: 5px 30px 0px 10px;" width="25%"              
+              class="img_left"
               src="./assets/images/PavillionSpring.JPG"
               alt="Longhill"
             />
@@ -107,11 +91,9 @@
             Plain.
           </p>
           <hr style="width: 80%;" />
-          <p class="intro">
+          <p class="text_body">
             <img
-              align="right"
-              style="margin: 5px 30px 0px 30px;"
-              width="30%"
+              class="img_right"
               src="./assets/images/House3Ls.JPG"
               alt="Longhill"
             />
@@ -131,11 +113,9 @@
             ornaments and statuary.
           </p>
           <hr style="width: 80%;" />
-          <p class="intro">
+          <p class="text_body">
             <img
-              align="left"
-              style="margin: 5px 30px 0px 10px;"
-              width="25%"
+              class="img_left"
               src="./assets/images/HouseFlower.JPG"
               alt="Longhill"
             />Today, the gardens retain the “Garden for Living”–style with
@@ -160,14 +140,14 @@
         </div>
         <hr style="width: 80%;" />
         <h4 class="text_brown">Hours:</h4>
-        <p>
+        <p class="text_body">
           Gardens are open year-round, daily, 8am to 5pm. Allow a minimum of 1½
           hours. Peak bloom in May and June. Guided tours are offered in spring,
           summer, and fall and by appt.
         </p>
 
         <h4 class="text_brown">Direction:</h4>
-        <p>
+        <p class="text_body">
           From Rt. 128 North to Exit 18, take Rt. 22 North 1 mi. Bear left at
           split in road and continue for 0.2 mi. on Essex Street to entrance on
           left (street number 572 is on the brick pillars). Parking area (50
@@ -178,164 +158,644 @@
 
     <hr style="width: 80%;" />
 
-    <!-- section for photos, carousel idea & code from mdbootstrap.com -->
-   
-      <!--Carousel Wrapper-->
-      <div
-        id="multi-item"
-        class="carousel slide carousel-multi-item carousel-multi-item-2 center_container"
-        data-ride="carousel"
-      >
-        <!--Controls-->
-        <div class="controls-top">
-          <a class="black-text" href="#multi-item" data-slide="prev"
-            ><i class="fas fa-angle-left fa-3x pr-3"></i
-          ></a>
-          <a class="black-text" href="#multi-item" data-slide="next"
-            ><i class="fas fa-angle-right fa-3x pl-3"></i
-          ></a>
-        </div>
-        <!--/.Controls-->
+    <!-- Photo slide, idea & code from mdbootstrap.com with modification-->
 
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
-          <div class="carousel-item active">
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/ChairTable.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/GardenLs.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/LilyPondLs.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/TulipsLs.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-          <!--/.First slide-->
-
-          <!--Second slide-->
-          <div class="carousel-item">
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/House3Ls.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/Frog.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/veggiFieldLs.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/KidsGardenLs.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-          <!--/.Second slide-->
-
-          <!--Third slide-->
-          <div class="carousel-item">
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/Kid2ls.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/frontyard.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/flowerfieldls.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img
-                  class="img-fluid"
-                  src="./assets/images/autumnveggiels.JPG"
-                  alt="Card image cap"
-                />
-              </div>
-            </div>
-          </div>
-          <!--/.Third slide-->
-        </div>
-        <!--/.Slides-->
+    <!--Carousel Wrapper-->
+    <div
+      id="multi-item"
+      class="carousel slide carousel-multi-item carousel-multi-item-2 center_container"
+      data-ride="carousel"
+    >
+      <!--Controls-->
+      <div class="controls-top">
+        <a class="black-text" href="#multi-item" data-slide="prev"
+          ><i class="fas fa-angle-left fa-3x pr-3"></i
+        ></a>
+        <a class="black-text" href="#multi-item" data-slide="next"
+          ><i class="fas fa-angle-right fa-3x pl-3"></i
+        ></a>
       </div>
-      <!--/.Carousel Wrapper-->
-   
-   
+      <!--/.Controls-->
+
+      <!--slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+          <!--image1 "./assets/images/ChairTable.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal1"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/ChairTable.JPG"
+                        alt="image1"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/ChairTable.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal1"
+              />
+            </div>
+          </div>
+
+          <!--image2 "./assets/images/GardenLs.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal2"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/GardenLs.JPG"
+                        alt="image2"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/GardenLs.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal2"
+              />
+            </div>
+          </div>
+
+          <!--image3 "./assets/images/LilyPondLs.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal3"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/LilyPondLs.JPG"
+                        alt="image3"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/LilyPondLs.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal3"
+              />
+            </div>
+          </div>
+
+          <!--image4 "./assets/images/TulipsLs.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal4"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/TulipsLs.JPG"
+                        alt="image4"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/TulipsLs.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal4"
+              />
+            </div>
+          </div>
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+          <!--image5 "./assets/images/House3Ls.JPG" -->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal5"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/House3Ls.JPG"
+                        alt="image5"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/House3Ls.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal5"
+              />
+            </div>
+          </div>
+
+          <!--image6 "./assets/images/Frog.JPG" -->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal6"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/Frog.JPG"
+                        alt="image6"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/Frog.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal6"
+              />
+            </div>
+          </div>
+
+          <!--image7 "./assets/images/veggiFieldLs.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal7"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/veggiFieldLs.JPG"
+                        alt="image7"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/veggiFieldLs.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal7"
+              />
+            </div>
+          </div>
+
+          <!--image8 "./assets/images/KidsGardenLs.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal8"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/KidsGardenLs.JPG"
+                        alt="image8"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/KidsGardenLs.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal8"
+              />
+            </div>
+          </div>
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <!--image9 "./assets/images/Kid2ls.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal9"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/Kid2ls.JPG"
+                        alt="image9"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/Kid2ls.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal9"
+              />
+            </div>
+          </div>
+
+          <!--image10 "./assets/images/frontyard.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal10"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/frontyard.JPG"
+                        alt="image10"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/frontyard.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal10"
+              />
+            </div>
+          </div>
+
+          <!--image11 "./assets/images/flowerfieldls.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal11"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/flowerfieldls.JPG"
+                        alt="image11"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/flowerfieldls.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal11"
+              />
+            </div>
+          </div>
+
+          <!--image12 "./assets/images/autumnveggiels.JPG"-->
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <!--Modal: Name-->
+              <div
+                class="modal fade"
+                id="modal12"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-lg" role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Body-->
+                    <div class="modal-body mb-4 mt-4 p-0">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/autumnveggiels.JPG"
+                        alt="image12"
+                        style="height: 50%; width: 70%;"
+                      />
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                  <!--/.Content-->
+                </div>
+              </div>
+              <!--Modal: Name-->
+              <img
+                class="img-fluid"
+                src="./assets/images/autumnveggiels.JPG"
+                alt="Card image cap"
+                data-toggle="modal"
+                data-target="#modal12"
+              />
+            </div>
+          </div>
+        </div>
+        <!--/.Third slide-->
+      </div>
+      <!--/.Slides-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
     <!-- /.Main body -->
     <hr style="width: 80%;" />
     <!-- Footer using mdbootstrap footer with fontawesome-->
@@ -395,4 +855,20 @@
       </div>
     </footer>
   </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
 </html>
