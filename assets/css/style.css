@@ -9,7 +9,7 @@
 }
 /*------------ body padding --------------*/
 body {
-  padding-top: 55px;
+  padding-top: 55px;  
 }
 
 /*------------ Carousel photo border ------------*/
@@ -42,6 +42,15 @@ body {
   justify-content: center;
   text-align: center;
   }
+
+ .footer-container {
+  background-color: rgb(248, 246, 244);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
 .sub_title {
   margin-top: 15px;

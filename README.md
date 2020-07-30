@@ -1,25 +1,30 @@
 ## User Centric Frontend Development Milestone Project 1 -- Long Hill
 
-Long Hill is my favorite place near my home. It's a beautiful estate managed by the Trustees of Reservations. I hope this website will let users discover this hidden gem in North Shore and come visit, enjoy the beauty and become a member to support the Trustees.
+Long Hill is my favorite place at North Shore. It's a beautiful estate managed by the Trustees of Reservations. I hope this website will let users discover this hidden gem in North Shore and come visit, enjoy the beauty, become a member and support the Trustees.
 
-Long Hill website can be accessed [here](https://github.com/suping106/milestone1)
+My Long Hill website can be accessed [here](https://suping106.github.io/milestone1/)
 
 ## UX
 
 ### As a user
-
 - I can read about the history of this property.
 - I can see the photos in different seasons.
 - I can find directions to the estate.
 - I can sign up to be a member.
 - I can navigate through pages.
-- I can browse Long Hill social media sites (currently not available).
+- I can browse Trustees social media sites.
 
 ### As a website owner
-
 - I want people to know and visit this beautiful place.
 - I want to share the photos I took over the years.
 - I hope people would like to become a member and support the trustees.
+
+### Responsive design
+User can browse this website on different devices.
+
+<img src="./assets/images/responsive-img.png" alt="responsive-img"/>
+
+<img src="./assets/images/responsive-img2.png" alt="responsive-img2"/>
 
 ## Wireframes
 
@@ -38,6 +43,7 @@ Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR2
 - Home page – is the landing page with a picture of Long Hill and three buttons that will take the user to Discover page, location map and signup page.
 - Discover page – has a little history of the estate and photos with text wrap around images. Original design was to have a paragraph of the history and four photo links for the four seasons. Since I do not have the knowledge to handle large amount of photos using database I put a photo slides at the bottom of the page.
 - Join us page – is the place to signup to become a member. Each field required to fill up before submission.
+- Responsive design
 
 ### Future Features
 
@@ -45,7 +51,7 @@ Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR2
 
 ## Technologies Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5) -
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - used for project development 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used for custome styling the elements.
 - [GidPod](https://www.gitpod.io/) - used online IDE for project development, code writing and editing
 - [Gidhub](https://github.com/) - used for project repository and version control
@@ -62,7 +68,7 @@ Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR2
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/milestone1).
 
 Deployment was done by 
-* Loggin in to GitHub
+* Logging in to GitHub
 * Locating Milestone1 project repository
 * Clicking on the settings tab 
 * Navigating to "Github pages" section
@@ -78,7 +84,7 @@ Clone the repository
 * At the command promt type git clone https://github.com/suping106/milestone1.git
 * Press enter
 * Local clone repository will be created
- 
+
 ## Credits
 
 ### Content
