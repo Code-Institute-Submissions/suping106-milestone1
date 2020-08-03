@@ -10,6 +10,7 @@ My Long Hill website can be accessed [here](https://suping106.github.io/mileston
 - I can read about the history of this property.
 - I can see the photos in different seasons.
 - I can find directions to the estate.
+- I can contact Trustess through email or phone.
 - I can sign up to be a member.
 - I can navigate through pages.
 - I can browse Trustees social media sites.
@@ -61,8 +62,26 @@ Link to my original wireframes is [here](https://www.figma.com/file/2a5UR6GjIVR2
 - [Fontawesome](https://fontawesome.com/) - used for providing social media icons.
 
 ## Testing
-* HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
-* All pages were tested in Chrome, Microsoft Edge and IOS. All three pages worked responsively on these browsers.
+
+### Code Validation
+HTML code for all pages and CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). Errors were corrected.
+Errors of stray start tag were found. Errors were corrected by moving script links inside the body.
+
+CSS stylesheet were validated on [W3C Validator](https://validator.w3.org/nu/#textarea). No error found.
+
+### Responsiveness
+Responsiveness of the site was tested using [Chrome devtools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://responsivedesignchecker.com/#home)
+
+<img src="./assets/images/responsive-test.png" alt="responsive-test"/>
+
+### Compatibility
+Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefox.
+
+<img src="./assets/images/compatibility-test.png" alt="compatibility-test"/>
+
+### Bugs
+* Active page was not highlighted. Bug fixed by adding "active" class and now the active page is highlighted. 
+* Images were taken over the whole screen. Bug fixed by adding "class="img-fluid" to the image tags and now images are responsive. 
 
 ## Deployment
 The website was deployed to GitHub pages. Link to the site is [here](https://github.com/suping106/milestone1).
@@ -100,4 +119,4 @@ Clone the repository
 
 ### Acknowledgements
 
-- I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his support, help, patience and encouragements.
+- I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his support, help, patience and encouragements. I am also grateful for the helps from tutors and slack members.
