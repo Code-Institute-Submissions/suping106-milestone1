@@ -74,10 +74,44 @@ Responsiveness of the site was tested using [Chrome devtools](https://developers
 
 <img src="./assets/images/responsive-test.png" alt="responsive-test"/>
 
-### Compatibility
+### Browser Compatibility
 Compatibility of the site was tested on Google Chrome, Microsoft Edge and Firefox.
 
 <img src="./assets/images/compatibility-test.png" alt="compatibility-test"/>
+
+### Testing User Stories
+#### As a user
+- I can read about the history of this property.
+    * by navigating to **Discover** page through **Discover** link on the navbar or the sandwich menu
+    * or by clicking **Discover** button on home page
+
+- I can see the photos in different seasons.
+    * by viewing photo slides at the bottom of **Discover** page
+
+- I can find directions to the estate. 
+    * by clicking **Map** button on the **Home** page to access property location on **Google Maps**
+    * or getting direction from **Discover** page
+- I can contact Trustess through email or phone.
+    * by using the email address and phone number listed on each page right above the Footer
+- I can sign up to be a member.
+    * by navigating to **Join Us** page through the link on navbar or sandwich menu and filling up the signup form
+    * or by clicking **Join Us** button on **Home** page and filling up the signup form
+    
+- I can navigate through pages.
+    * by clicking the links on navbar of each page or sandwich menu
+- I can browse Trustees social media sites.
+    * by clicking the icons at the Footer of each page
+
+#### As a website owner
+- I want people to know and visit this beautiful place.
+    * by reading the history on **Discover** page.
+    * by viewing the photo slides on **Discover** page
+    * by browsing Trustess social media website through the icons on the Footer
+
+- I want to share the photos I took over the years.
+    * by the photo slides on **Discover** page
+- I hope people would like to become a member and support the trustees.
+    * by signing up on **Join Us" page
 
 ### Bugs
 * Active page was not highlighted. Bug fixed by adding "active" class and now the active page is highlighted. 
